@@ -1,0 +1,63 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 15%;
+    margin-bottom: 5%;
+    padding: 95px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+
+.center{
+    display:block;
+    margin-left: 50%;
+    margin-right: ;
+    width:50%;
+}
+.center1{
+    display:block;
+    margin-left: 100;
+    margin-right: 10;
+    width:20%;
+    margin-top: 5%;
+}
+.center2{
+    text-align: center;
+    margin-right: 100%;
+}
+.center3{
+    text-align: center;
+    margin-right: 5%;
+    
+    
+}
+.center4{
+    display:block;
+    margin-left: 50;
+    margin-right: 100;
+    width:20%;
+
+}
+
+body {
+    font-size: 100%;
+  }
+  .center5{
+    text-align: center;
+
+    
+  }
+  .namana{
+    text-align: center;
+    margin-left=100;
+  }
+  
+  
+
+
+
